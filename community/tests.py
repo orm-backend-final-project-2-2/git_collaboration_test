@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-class CommunityTestCase(TestCase):
+class PostListTestCase(TestCase):
 
     def test_always_success(self):
         self.assertEqual(True, True)
