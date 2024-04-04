@@ -1,8 +1,7 @@
 from django.test import TestCase
 
 
-class ExercisesInfoListTestCase(TestCase):
-
+class ExercisesListTestCase(TestCase):
     def test_always_success(self):
         self.assertEqual(True, True)
 
