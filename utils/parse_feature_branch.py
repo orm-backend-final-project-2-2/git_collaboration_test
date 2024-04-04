@@ -11,4 +11,5 @@ if len(sys.argv) == 2:
         words = feature_name.split("-")
         app_name = app_name.replace("-", "_")
         tc_feature_name = "".join([word.title() for word in words]) + "TestCase"
+
         print(f"{app_name} {tc_feature_name}")
